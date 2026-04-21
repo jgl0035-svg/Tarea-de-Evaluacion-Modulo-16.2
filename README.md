@@ -1,7 +1,7 @@
 # Tarea-de-Evaluacion-Modulo-16.2
 # Aviso sobre los tests
 
-Durante la ejecución de los tests en Google Chrome puede aparecer un aviso del Gestor de Contraseñas indicando que la contraseña utilizada en SauceDemo ha sido encontrada en una brecha de seguridad. Este popup bloquea temporalmente la interacción con la página, impidiendo que Selenium pueda hacer clic en los botones de “Add to cart”.
+Durante la ejecución de los tests en Google Chrome puede aparecer un aviso del Gestor de Contraseñas indicando que la contraseña utilizada en SauceDemo ha sido encontrada en una brecha de seguridad. Este mensaje bloquea temporalmente la interacción con la página, impidiendo que Selenium pueda hacer clic en los botones de “Add to cart”.
 
 Esto no está relacionado con el código ni con Selenium, sino con la seguridad integrada del navegador. En caso de que le salga cierra el aviso rápidamente manualmente (pulsando “Aceptar”), los tests continúan y pasan correctamente en verde. Por tanto, el funcionamiento de las pruebas es correcto y el bloqueo se debe únicamente al popup del navegador.
 
