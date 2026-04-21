@@ -1,17 +1,17 @@
 # Tarea-de-Evaluacion-Modulo-16.2
-# 📝 Nota técnica sobre la ejecución de los tests
+# Aviso sobre los tests
 
-Durante la ejecución de los tests en Google Chrome aparece un aviso del Gestor de Contraseñas indicando que la contraseña utilizada en SauceDemo ha sido encontrada en una brecha de seguridad. Este popup bloquea temporalmente la interacción con la página, impidiendo que Selenium pueda hacer clic en los botones de “Add to cart”.
+Durante la ejecución de los tests en Google Chrome puede aparecer un aviso del Gestor de Contraseñas indicando que la contraseña utilizada en SauceDemo ha sido encontrada en una brecha de seguridad. Este popup bloquea temporalmente la interacción con la página, impidiendo que Selenium pueda hacer clic en los botones de “Add to cart”.
 
-Este comportamiento no está relacionado con el código ni con Selenium, sino con la seguridad integrada del navegador. Cuando se cierra el aviso manualmente (pulsando “Aceptar”), los tests continúan y pasan correctamente en verde. Por tanto, el funcionamiento de las pruebas es correcto y el bloqueo se debe únicamente al popup del navegador.
+Esto no está relacionado con el código ni con Selenium, sino con la seguridad integrada del navegador. En caso de que le salga cierra el aviso rápidamente manualmente (pulsando “Aceptar”), los tests continúan y pasan correctamente en verde. Por tanto, el funcionamiento de las pruebas es correcto y el bloqueo se debe únicamente al popup del navegador.
 
-A continuación incluyo una captura del aviso para que se entienda mejor el problema:
+Aquí pongo una captura del aviso para que se entienda mejor el problema:
 
 <img width="605" height="382" alt="Captura de pantalla 2026-04-21 205548" src="https://github.com/user-attachments/assets/f961bafa-2814-4896-bdd2-dfac00d53636" />
 
 ---
 
-# 🧠 Apreciación y reflexión personal
+# Reflexión personal
 
 En esta tarea he podido profundizar en el uso de Selenium y en la estructura Page Object Model, que hasta ahora solo había visto de forma más superficial. Me ha servido para entender mejor cómo separar la lógica de las páginas de la lógica de los tests, y cómo esto facilita muchísimo la organización del proyecto y la reutilización del código. También he aprendido a trabajar con localizadores más complejos, especialmente con XPath, y a comprender por qué algunos selectores funcionan en unas situaciones y en otras no.
 
