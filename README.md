@@ -7,7 +7,7 @@ Este comportamiento no está relacionado con el código ni con Selenium, sino co
 
 A continuación incluyo una captura del aviso para que se entienda mejor el problema:
 
-![popup](Captura de pantalla 2026-04-21 205548.png)
+<img width="605" height="382" alt="Captura de pantalla 2026-04-21 205548" src="https://github.com/user-attachments/assets/f961bafa-2814-4896-bdd2-dfac00d53636" />
 
 ---
 
